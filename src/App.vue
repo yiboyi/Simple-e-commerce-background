@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- 我是天上星 -->
     <!-- 路由占位符 -->
     <router-view></router-view>
   </div>
