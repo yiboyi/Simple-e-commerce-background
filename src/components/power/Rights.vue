@@ -52,7 +52,6 @@ export default {
     // 权限列表
       rightsList: [
         {
-
         }
       ]
     }
