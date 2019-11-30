@@ -480,7 +480,7 @@ export default {
       // 在展示对话框之前,获取所有角色的列表
       const { data: res } = await this.$http.get('roles')
       if (res.meta.status !== 200) {
-        return this.$message.error('获取巨列表失败!')
+        return this.$message.error('获取列表失败!')
       }
       this.rolesList = res.data
       this.$message.success('获取列表成功')
